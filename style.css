@@ -1,0 +1,12 @@
+svg {
+    margin: 20px;
+    overflow: visible;
+}
+
+.notetext {
+    font: 10px sans-serif;
+}
+
+.fretnumtext {
+    font: 14px sans-serif;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div>Fretboard</div>
+  <div id="fretboard"></div>
+  <div>
+    <label for="highToLow">High to Low</label>
+    <input id="highToLow" type="radio" name="stringOrder" checked>
+    <label for="lowToHigh">Low to High</label>
+    <input id="lowToHigh" type="radio" name="stringOrder">
+    |
+    <label for="showFretNumbers">Fret Numbers</label>
+    <input id="showFretNumbers" type="checkbox" checked>
+    |
+    <label for="fretCount">Fret Count</label>
+    <select id="fretCount">
+      <option value="12">12</option>
+      <option value="21">21</option>
+      <option value="24">24</option>
+    </select>
+    |
+    <button id="playGame">Empty to Fill</button>
+  </div>
+  <div id="choose" style="display: None">
+    <div>Choose a note below for the blinking position</div>
+    <div id="notes"></div>
+  </div>
+</body>
+<script src="music.js" type="module"></script>
+<script src="svg.js" type="module"></script>
+<script src="fret.js" type="module"></script>
+<script src="options.js" type="module"></script>
+<script src="fill.js" type="module"></script>
+</html>
