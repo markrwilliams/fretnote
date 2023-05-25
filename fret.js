@@ -1,7 +1,7 @@
 import {makeSVG, group, ellipse, line, rect, text} from "./svg.js";
 
-export const highToLowStrings = ["E1", "B", "G", "D", "A", "E0"];
-export const lowToHighStrings = ["E0", "A", "D", "G", "B", "E1"];
+export const lowToHighStrings = ["E1", "B", "G", "D", "A", "E0"];
+export const highToLowStrings = ["E0", "A", "D", "G", "B", "E1"];
 
 // make sure high-to-low is checked by default
 export var strings = highToLowStrings;
